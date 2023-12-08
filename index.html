@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <title>Login Square Games</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" type="image/png" href="assetslogin/imageslogin/icons/icone.png" /> <!-- ícone da página -->
+    <link rel="stylesheet" type="text/css" href="assetslogin/fontslogin/font-awesome-4.7.0/css/font-awesome.min.css"> <!-- font awesome // ícones -->
+    <link rel="stylesheet" type="text/css" href="assetslogin/fontslogin/iconic/css/material-design-iconic-font.min.css"> <!-- material design // ícones -->
+    <link rel="stylesheet" type="text/css" href="assetslogin/csslogin/util.css"> <!-- css normal -->
+    <link rel="stylesheet" type="text/css" href="assetslogin/csslogin/main.css"> <!-- css normal -->
+</head>
+
+<body>
+
+    <!-- formulário -->
+    <div class="limiter">
+        <div class="container-login100" style="background-image: url('assetslogin/imageslogin/bg-01.jpg');">
+            <div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
+
+                <div class="login100-form validate-form">
+                    <span class="login100-form-title p-b-49">
+                        Login
+                    </span>
+
+                    <!-- nome de usuário e senha -->
+                    <div class="wrap-input100 validate-input m-b-23" data-validate="O nome de usuário é obrigatório.">
+                        <span class="label-input100">Nome de usuário</span>
+                        <input class="input100" id="user" type="text" name="user" placeholder="Escreva seu usuário">
+                        <span class="focus-input100" data-symbol="&#xf206;"></span>
+                    </div>
+
+                    <div class="wrap-input100 validate-input" data-validate="A senha é obrigatória.">
+                        <span class="label-input100">Senha</span>
+                        <input class="input100" id="pass" type="password" name="pass" placeholder="Escreva sua senha">
+                        <span class="focus-input100" data-symbol="&#xf190;"></span>
+                    </div>
+
+                    <div class="text-right p-t-8 p-b-31">
+                        <a href="#">
+                            Esqueceu a senha?
+                        </a>
+                    </div>
+
+                    <!-- botão de login -->
+                    <div class="container-login100-form-btn">
+                        <div class="wrap-login100-form-btn">
+                            <div class="login100-form-bgbtn"></div>
+                            <a href="inicio.html"><button class="login100-form-btn" id="login">
+                                Login
+                            </button></a>
+                        </div>
+                    </div>
+
+                    <!-- redes sociais -->
+                    <div class="flex-c-m redessociais">
+                        <a href="https://www.youtube.com/channel/UCzW_MyHRu4lc0KsjnCgkcpw" class="login100-social-item bg4" target="_blank">
+                            <i class="fa fa-youtube" style="color: white;"></i>
+                        </a>
+
+                        <a href="https://twitter.com/s_quaregames" class="login100-social-item bg2" target="_blank">
+                            <i class="fa fa-twitter" style="color: white;"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/s_quaregames/" class="login100-social-item bg9" target="_blank">
+                            <i class="fa fa-instagram" style="color: white;"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="dropDownSelect1"></div>
+
+    <!-- arquivos js-->
+    <script src="assetslogin/vendorlogin/jquery/jquery-3.2.1.min.js"></script>
+    <script src="assetslogin/jslogin/main.js"></script>
+	<script src="assetslogin/jslogin/login.js"></script>
+</body>
+
+</html>

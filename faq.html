@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Square Royal</title>
+
+  <!-- favicons // é o ícone que aparece na barra de endereços do navegador, abas da página e etc -->
+  <link href="img/favicon.png" rel="icon">
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+  <!-- linkagens com css -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> <!-- bootstrap -->
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet"> <!-- icons bootstrap-->
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"> <!-- swiper // framework de slider -->
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"> <!-- gligthbox // janelas modais ou lightboxes -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet"> <!-- aos // cria animações ao rolar a página -->
+
+  <!-- linkagem principal com css -->
+  <link href="css/main.css" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+  <!-- header -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+
+      <a href="inicio.html" class="logo d-flex align-items-center  me-auto me-lg-0">
+        <i class="bi bi-controller"></i>
+        <h1>Square Games</h1>
+      </a>
+
+      <!-- navbar -->
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="inicio.html" class="active">Início</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+
+      <!-- redes sociais -->
+      <div class="header-social-links">
+        <a href="https://twitter.com/s_quaregames" target="_blank" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="https://www.tiktok.com/@s_quaregames" target="_blank" class="tiktok"><i class="bi bi-tiktok"></i></a>
+        <a href="https://www.youtube.com/channel/UCzW_MyHRu4lc0KsjnCgkcpw" target="_blank" class="youtube"><i class="bi bi-youtube"></i></a>
+        <a href="https://www.instagram.com/s.quaregames/" target="_blank" class="instagram"><i class="bi bi-instagram"></i></a>
+      </div>
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+    </div>
+  </header>
+  <main id="main" data-aos="fade" data-aos-delay="1500">
+
+    <!-- texto da divisão entre a header e o conteúdo -->
+    <div class="page-header d-flex align-items-center">
+      <div class="container position-relative">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-6 text-center">
+            <h2>Perguntas</h2>
+            <p>Aqui, você encontrará informações sobre games e respostas para as perguntas mais frequentes. Faça a sua pergunta também!</p>
+
+            <a class="cta-btn" href="inicio.html">Veja alguns jogos</a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- parte dos aplicativos de jogos -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <!-- STEAM -->
+          <div class="col-xl-3 col-md-6 d-flex">
+            <div class="service-item position-relative">
+              <i class="bi bi-steam"></i>
+              <h4><a href="https://store.steampowered.com/?l=portuguese" target="_blank" class="stretched-link">Steam</a></h4>
+              <p>A Steam, desenvolvida pela Valve, é uma renomada plataforma de distribuição digital para jogos de PC. Reconhecida por sua vasta biblioteca, oferece uma variedade de títulos e recursos sociais, como multiplayer e workshop.</p>
+            </div>
+          </div>
+
+          <!-- NINTENDO -->
+          <div class="col-xl-3 col-md-6 d-flex">
+            <div class="service-item position-relative">
+              <i class="bi bi-nintendo-switch"></i>
+              <h4><a href="https://www.nintendo.com/pt-br/?gad_source=1" target="_blank" class="stretched-link">Nintendo</a></h4>
+              <p>A Nintendo, conhecida por sua abordagem inovadora, é uma fabricante de consoles e jogos. O Nintendo Switch é seu destaque, proporcionando versatilidade para jogar tanto em casa quanto em movimento, com franquias populares como Mario e Zelda.</p>
+            </div>
+          </div>
+
+          <!-- PS -->
+          <div class="col-xl-3 col-md-6 d-flex">
+            <div class="service-item position-relative">
+              <i class="bi bi-playstation"></i>
+              <h4><a href="https://www.playstation.com/pt-br/" target="_blank" class="stretched-link">Play Station</a></h4>
+              <p>A linha de consoles PlayStation, da Sony, destaca-se por oferecer experiências de jogo envolventes. O PlayStation 5, sua versão mais recente, apresenta gráficos avançados, inovações como o controlador DualSense e uma ampla gama de jogos exclusivos.</p>
+            </div>
+          </div>
+
+          <!-- XBOX -->
+          <div class="col-xl-3 col-md-6 d-flex">
+            <div class="service-item position-relative">
+              <i class="bi bi-xbox"></i>
+              <h4><a href="https://www.xbox.com/pt-BR" target="_blank" class="stretched-link">Xbox</a></h4>
+              <p>O Xbox, da Microsoft, oferece consoles com hardware potente, como o Xbox Series X. Além disso, destaca-se pelo serviço Xbox Game Pass, proporcionando acesso a uma extensa biblioteca de jogos por assinatura, reforçando a integração de jogos e serviços online.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SEÇÃO PLAYER -->
+    <section id="pricing" class="pricing">
+      <div class="container">
+
+        <div class="section-header">
+          <h2>Dúvidas</h2>
+          <p>Perguntas frequentes:</p>
+        </div>
+
+        <div class="row gy-4 gx-lg-5">
+
+          <!-- PERGUNTA UM -->
+            <div class="col-lg-6">
+                <div class="pricing-item d-flex justify-content-between">
+                    <h3>Qual a diferença entre "multiplayer" e "singleplayer"?</h3>
+                    <button class="btn butao" data-bs-toggle="modal" data-bs-target="#modal1">Ver resposta</button>
+                </div>
+            </div>
+
+            <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title titulomodal" id="exampleModalLabel">Qual a diferença entre "multiplayer" e "singleplayer"?</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body titulomodal">
+                          <p>
+                            "Singleplayer" refere-se a jogos projetados para serem jogados por uma única pessoa. "Multiplayer" envolve a participação de várias pessoas, interagindo e jogando juntas.</p>
+                      </div>
+                      <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <!-- PERGUNTA DOIS -->
+          <div class="col-lg-6">
+            <div class="pricing-item d-flex justify-content-between">
+              <h3>O que é RPG?</h3>
+              <button class="btn butao" data-bs-toggle="modal" data-bs-target="#modal2">Ver resposta</button>
+            </div>
+          </div>
+          
+          <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title titulomodal" id="exampleModalLabel">O que é RPG?</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body titulomodal">
+                      RPG significa Role-Playing Game, um gênero de jogo onde os jogadores assumem papéis fictícios e participam de histórias interativas.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PERGUNTA TRÊS -->
+          <div class="col-lg-6">
+            <div class="pricing-item d-flex justify-content-between">
+              <h3>Quais os requisitos para jogar minecraft?</h3>
+              <button class="btn butao" data-bs-toggle="modal" data-bs-target="#modal3">Ver resposta</button>
+            </div>
+          </div>
+
+          <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title titulomodal" id="exampleModalLabel">Quais os requisitos para jogar minecraft?
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body titulomodal">
+                      Os requisitos para jogar Minecraft variam, mas geralmente incluem um computador ou console compatível e uma conexão à internet para certos recursos online.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PERGUNTA QUATRO -->
+          <div class="col-lg-6">
+            <div class="pricing-item d-flex justify-content-between">
+              <h3>Existe Free Fire para computador?</h3>
+              <button class="btn butao" data-bs-toggle="modal" data-bs-target="#modal4">Ver resposta</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content ">
+                  <div class="modal-header">
+                      <h5 class="modal-title titulomodal" id="exampleModalLabel">Existe Free Fire para computador?</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body titulomodal">
+                    Não, Free Fire é um jogo mobile e não tem uma versão oficial para computador. Ele é projetado principalmente para ser jogado em dispositivos móveis, como smartphones e tablets.
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+ 
+      <div class="oidasilva">
+        <a href="./forms.html">Adicionar comentário</a>
+      </div>
+    </section>
+
+    <!-- comentários -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+
+        <div class="section-header">
+          <h2>Comentários</h2>
+          <p>O que eles estão dizendo:</p>
+        </div>
+
+        <div class="slides-3 swiper">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  O atendimento deste site é excepcional! Sempre recebo respostas rápidas e eficientes para minhas dúvidas. A equipe é extremamente prestativa e demonstra um comprometimento notável.
+                </p>
+                <div class="profile mt-auto">
+                  <img src="img/testemunhas/orochiedoa.jpg" class="testimonial-img" alt="">
+                  <h3>Orochi e Doa</h3>
+                  <h4>Manikas</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  Impressionado com a agilidade no atendimento! Cada pergunta que fiz foi respondida de maneira clara e rápida. Uma equipe competente que realmente se preocupa em ajudar. Recomendo!
+                </p>
+                <div class="profile mt-auto">
+                  <img src="img/testemunhas/lula.webp" class="testimonial-img" alt="">
+                  <h3>Luis Inácio</h3>
+                  <h4>Presidente</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  O suporte deste site é incrível! Nunca esperei tanto para obter respostas esclarecedoras. Sempre que tenho dúvidas, a equipe está pronta para ajudar. Ótimo trabalho, pessoal
+                </p>
+                <div class="profile mt-auto">
+                  <img src="img/testemunhas/brenao.jpg" class="testimonial-img" alt="">
+                  <h3>Breno de Souza</h3>
+                  <h4>Trabalhador</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  Não poderia estar mais satisfeita com o atendimento deste site! As respostas são praticamente instantâneas, e a equipe é extremamente atenciosa. Eles sempre superam as expectativas. Parabéns pela excelência!
+                </p>
+                <div class="profile mt-auto">
+                  <img src="img/testemunhas/andreia.png" class="testimonial-img" alt="">
+                  <h3>Andréia da Silva</h3>
+                  <h4>Diretora</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  O atendimento ao cliente aqui é impecável! As respostas são sempre precisas e chegam rapidamente. É reconfortante saber que posso contar com uma equipe tão eficiente para esclarecer minhas dúvidas.
+                </p>
+                <div class="profile mt-auto">
+                  <img src="img/testemunhas/vitor.png" class="testimonial-img" alt="">
+                  <h3>Vitor Hugo</h3>
+                  <h4>Estudante</h4>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>>
+
+
+  <!-- footer -->
+  <footer id="footer" class="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Square Royal</span></strong>. Todos os Direitos Reservados.
+      </div>
+      <div class="credits">
+        Feito por <a href="https://github.com/ProgrammingTitans">Royal Group</a>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader">
+    <div class="line"></div>
+  </div> 
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
